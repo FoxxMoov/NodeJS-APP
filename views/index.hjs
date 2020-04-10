@@ -9,7 +9,7 @@
 <body>
   <h1>{{ title }}</h1>
   <p>Welcome to {{ title }}</p>
-  <form action="/ville" method="get">
+  <form action="/ville" method="post">
     <div>
       <label for="city">nom_ville: </label>
       <input type="text" name="nom_ville" id="city" required>
