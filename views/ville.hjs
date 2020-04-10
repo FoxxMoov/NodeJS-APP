@@ -1,0 +1,13 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>{{ nom_ville }}</title>
+    <link rel='stylesheet' href='/stylesheets/style.css' />
+</head>
+
+<body>
+    <p>Ville: {{ nom_ville }}</p>
+</body>
+
+</html>
