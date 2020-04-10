@@ -37,3 +37,11 @@ See the result on my own server :
 [https://node-app-corentin.herokuapp.com/](https://node-app-corentin.herokuapp.com/)
 
 Server displays "**Node App**" on the landing page
+
+============
+
+# Exercice 2
+
+Go to this URL : [https://node-app-corentin.herokuapp.com/](https://node-app-corentin.herokuapp.com/)
+
+Server displays "**Node App**" on the landing page + form to enter a city. When the city is enter => redirect to `/ville` page with the name of city pre-enter.
