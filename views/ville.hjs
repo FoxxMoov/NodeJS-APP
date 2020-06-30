@@ -2,12 +2,27 @@
 <html>
 
 <head>
-    <title>{{ nom_ville }}</title>
+    <title>{{ ville }}</title>
     <link rel='stylesheet' href='/stylesheets/style.css' />
 </head>
 
 <body>
-    <p>Ville: {{ nom_ville }}</p>
+    <p>Ville : {{ ville }}</p>
+    <p>{{ ville }} Latitude : {{ latt }}</p>
+    <p>{{ ville }} Longitude : {{ longt }}</p>
+
+    <hr>
+    <iframe width="600" height="300" frameborder="0" scrolling="yes" marginheight="0" marginwidth="0"
+        src="https://maps.google.com/maps?q={{latt}},{{longt}}&hl=fr&z=14&amp;output=embed">
+    </iframe>
+    <br />
+    <small>
+        <a href="https://maps.google.com/maps?q={{latt}},{{longt}}&hl=fr;z=14;amp&output=embed&language=fr"
+            style="color:#00B7FF;text-align:left" target="_blank">
+            Voir la carte en plus grand
+        </a>
+    </small>
+
 </body>
 
 </html>
