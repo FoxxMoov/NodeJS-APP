@@ -14,6 +14,7 @@ $ DEBUG="node-app:server" npm start
 # What it is, what it does
 
 Server that displays "Node App" on a single page.
+On : `http://localhost:3000/`
 
 # Usage
 
